@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
+    <title>Homepage</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <span class="heading">Student Result Management System</span>
+        </div>
+        
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="login.php">Admin Login</a>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('1')">
+                    <a href="#" class="dropbtn">Faculties &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="1">
+                        <a href="">Anu Taneja</a>
+                        <a href="">Sushma</a>
+                        <a href="">Vandana</a>
+                        <a href="">Jaspreet</a>
+                        <a href="">Rama</a>
+                        <a href="">Pooja</a>
+                        <a href="">Sandeep</a>
+                        <a href="">Nidhi</a>
+                        <a href="">Others</a>
+                    </div>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('2')">
+                    <a href="#" class="dropbtn">Student &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="2">
+                        <a href="./manage_classes.php">Courses</a>
+                        <a href="./manage_students.php">Student</a>
+                        <a href="">Attendance</a>
+                        <a href="./login.php">Results</a>
+                        <a href="./manage_results.php">Manage Results</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="slider">
+            <img src="images/home.jpg" class="slider-image" alt="img">
+        </div>
+    
+        <div class="main">
+            <span>About the College</span>
+            <p>Banarsidas Chandiwala Institute of Information Technology (BCIIT) was established in 1999 to run Three-Year Master of Computer Application (MCA) programme. The Institute is affiliated with Guru Gobind Singh Indraprastha University, Delhi for awarding the degree and is approved by the All India Council of Technical Education (AICTE), Ministry of HRD, Government of India.The Institute is established under the aegis of Sri Banarsidas Chandiwala Sewa Smarak Trust Society, a charitable Society working in the field of health and education since 1952.</p>
+    
+            <div class="info">
+                <div>
+                    <span>Courses</span> <hr>
+                    <p>BCIIT offers 3-year postgraduate professional MCA programme. </p>
+                </div>
+                <div>
+                    <span>Admissions</span> <hr>
+                    <p> -----------------------------------------------------------------------------</p>
+                </div>
+                <div>
+                    <span>Library</span> <hr>
+                    <p>Be the first to know. Stay informed and up to date with the upcoming technology. Get varied knowledge right from social events to newest research topics by clicking the link</p>
+                </div>
+                <div>
+                    <span>Campus Region</span> <hr>
+                    <p>The Institute is located in the midst of the business centres of South Delhi, viz., Nehru Place and Okhla Industrial Town in the serene environment of Chandiwala Estate. The location makes a perfect fit from IT perspective with Nehru Place as hardware hub and Okhla as software hub of Delhi</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer--contact">
+                <span>Contact Us</span>
+                <p>director.bciit@gmail.com</p>
+                <p>+91-6263056779</p>
+            </div>
+            <div class="footer--info">
+                <span>Important Links</span>
+                <a href="index.html">Home</a>
+                <a href="login.php">Admin Login</a>
+                <a href="login.php">Results</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
